@@ -56,7 +56,7 @@ export const insertDatatoDb = async(req,res)=>{
       message: error
     })
   }finally {
-    client.release(); // Release the client back to the pool
+    client.release();git 
   }
 }
 
